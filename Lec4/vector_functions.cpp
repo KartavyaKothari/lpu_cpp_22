@@ -28,13 +28,25 @@ int main(){
 
     display(arr);
 
-    arr.pop_back();
+    arr.insert(arr.begin()+2,50);
+    display(arr);
+    arr.insert(arr.begin()+2,123);
+    display(arr);
+    arr.insert(arr.begin()+2,143);
     display(arr);
 
-    arr.pop_back();
+    arr.erase(arr.begin()+3);
+    display(arr);
+    arr.erase(arr.begin());
     display(arr);
 
-    vector<Student> arr_s(4);
+    // arr.pop_back();
+    // display(arr);
+
+    // arr.pop_back();
+    // display(arr);
+
+    // vector<Student> arr_s(4);
     
 
     return 0;
