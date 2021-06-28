@@ -41,7 +41,7 @@ int main(){
     display(arr);
     // selection_sort(arr);
     // bubble_sort(arr);
-    // sort(arr.begin(),arr.end());
+    sort(arr.begin(),arr.end());
     display(arr);
 
     return 0;
