@@ -26,18 +26,25 @@ class Complex{
         real++;
         imag++;
     }
+
+    // void operator ++(int){
+    //     real++;
+    //     imag++;
+    // }
 };
 
 int main(){
     Complex c1(3,6);
     Complex c2(5,-4);
 
+    Complex c3 = c1+c2;
     c1 = c1+c2;
     // c1.+(c2);
 
     c1.display();
 
     ++c1;
+    // c1++;
     // c1.++()
     c1.display();
 
